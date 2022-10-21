@@ -1,0 +1,6 @@
+region             = "eu-west-1"
+availability_zones = ["eu-west-1"]
+ami                = "ami-0bd21458ecf89f85e"
+key_name           = "my-dev-ec2-keypair" 
+owner_name         = "rupert"
+owner_email        = "rupert@al.co.za"
