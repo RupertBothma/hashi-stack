@@ -20,12 +20,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.ACCESS_SECRET }}
           aws-region: eu-west-1
 
-      # fix backwards incompatibilities in template
-      - name: Fix Template
-        uses: hashicorp/packer-github-actions@master
-        with:
-          command: fix
-
       # validate templates
       - name: Validate Template
         uses: hashicorp/packer-github-actions@master
