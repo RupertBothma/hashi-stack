@@ -1,5 +1,5 @@
-variable "created_email" {rupert@al.co.za}
-variable "created_name" {rupert}
+variable "created_email" { default = "rupert@al.co.za" }
+variable "created_name" {default = "rupert" }
 variable "region" { default = "eu-west-1" }
 
 source "amazon-ebs" "hashistack" {
