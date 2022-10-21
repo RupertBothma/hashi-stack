@@ -1,4 +1,4 @@
-name: 'Terraform'
+name: 'hashi-stack'
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: 
+        working-directory: ./modules/hashi-stack
 
     steps:
     # Checkout the repository to the GitHub Actions runner
