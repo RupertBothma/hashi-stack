@@ -1,4 +1,0 @@
- 2 lines (2 sloc)  78 Bytes
-
-# Enable forward lookup of the 'consul' domain:
-server=/consul/127.0.0.1#8600

@@ -9,6 +9,10 @@ jobs:
   packer:
     runs-on: ubuntu-latest
     name: packer
+    
+  defaults:
+    with:
+      working-directory: ./cloud/aws/packer
 
     steps:
       - name: Checkout Repository
