@@ -27,7 +27,7 @@ jobs:
         with:
           command: validate
           arguments: -syntax-only
-          target: packer.pkr.hcl
+          target: aws-packer.pkr.hcl
           working-directory: ./cloud/aws/packer
 
       # build artifact
@@ -36,7 +36,7 @@ jobs:
         with:
           command: build
           arguments: "-color=false -on-error=abort"
-          target: packer.pkr.hcl
+          target: aws-packer.pkr.hcl
           working-directory: ./cloud/aws/packer
         env:
           PACKER_LOG: 1
