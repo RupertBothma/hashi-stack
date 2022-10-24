@@ -42,11 +42,11 @@ build {
   }
 
   provisioner "file" {
-    source      = "../../shared/packer/"
+    source      = "cloud/shared/packer/"
     destination = "/ops"
   }
 
   provisioner "shell" {
-    script = "../../shared/packer/scripts/setup.sh"
+    script = "cloud/shared/packer/scripts/setup.sh"
   }
 }
