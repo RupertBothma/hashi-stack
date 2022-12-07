@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/RupertBothma/hashi-stack/main.svg)](https://results.pre-commit.ci/latest/github/RupertBothma/hashi-stack/main)
+
 # Nomad Autoscaler Demos
 
 This repository hosts a series of demos for the [Nomad Autoscaler][nomad_autoscaler_repo].
