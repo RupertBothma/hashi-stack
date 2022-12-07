@@ -1,0 +1,24 @@
+-   id: validate_manifest
+    name: validate pre-commit manifest
+    description: This validator validates a pre-commit hooks manifest file
+    entry: pre-commit validate-manifest
+    language: python
+    files: ^\.pre-commit-hooks\.yaml$
+- id: black
+  name: black
+  description: "Black: The uncompromising Python code formatter"
+  entry: black
+  language: python
+  minimum_pre_commit_version: 2.9.2
+  require_serial: true
+  types_or: [python, pyi]
+- id: black-jupyter
+  name: black-jupyter
+  description:
+    "Black: The uncompromising Python code formatter (with Jupyter Notebook support)"
+  entry: black
+  language: python
+  minimum_pre_commit_version: 2.9.2
+  require_serial: true
+  types_or: [python, pyi, jupyter]
+  additional_dependencies: [".[jupyter]"]
