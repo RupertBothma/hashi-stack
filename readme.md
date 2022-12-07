@@ -6,10 +6,10 @@ This repository hosts a series of demos for the [Nomad Autoscaler][nomad_autosca
 
 ## List of demos
 
-  * [Horizontal Application Scaling][learn_horizontal_app_scaling]
-  * [Horizontal Cluster Scaling][learn_horizontal_cluster_scaling]
-  * [Dynamic Application Sizing][learn_dynamic_app_sizing]
-  * [On-demand Batch Job Cluster Scaling][learn_on_demand_batch]
+- [Horizontal Application Scaling][learn_horizontal_app_scaling]
+- [Horizontal Cluster Scaling][learn_horizontal_cluster_scaling]
+- [Dynamic Application Sizing][learn_dynamic_app_sizing]
+- [On-demand Batch Job Cluster Scaling][learn_on_demand_batch]
 
 [learn_horizontal_app_scaling]: https://learn.hashicorp.com/tutorials/nomad/autoscaler-vagrant-demo?in=nomad/autoscaler
 [learn_horizontal_cluster_scaling]: https://learn.hashicorp.com/tutorials/nomad/horizontal-cluster-scaling?in=nomad/autoscaler
